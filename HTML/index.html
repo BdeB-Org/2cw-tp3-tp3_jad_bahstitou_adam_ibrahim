@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Accueil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('../images/biblio.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            color: #00334e;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 1200px;
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .genre-button {
+            display: inline-block;
+            margin: 10px;
+        }
+        .genre-button img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .genre-button .genre-name {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            background-color: #d32f2f;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #b71c1c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Voici la bibliothèque enline la plus facile à utiliser</h1>
+        <h2>Nous avons toutes les genres de livre qu'il y a!</h2>
+        <a class="button" href="tout.html">Cliquez ici pour tous les genres de livre</a>
+        <div class="genre-button">
+            <a href="argumentatif.html">
+                <img src="../Images/argumentatif.jpg" alt="argumentatif">
+                <div class="genre-name">Argumentatif</div>
+            </a>
+        </div>
+        <div class="genre-button">
+            <a href="litteraire.html">
+                <img src="../Images/litteraire.jpg" alt="littéraire">
+                <div class="genre-name">Littéraire</div>
+            </a>
+        </div>
+        <div class="genre-button">
+            <a href="poetique.html">
+                <img src="../Images/poetique.jpg" alt="poétique">
+                <div class="genre-name">Poétique</div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
